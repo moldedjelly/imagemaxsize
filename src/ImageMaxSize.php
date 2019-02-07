@@ -77,7 +77,7 @@ class ImageMaxSize extends Plugin
 
         Craft::info(
             Craft::t(
-                'image-max-size',
+                'imagemaxsize',
                 '{name} plugin loaded',
                 ['name' => $this->name]
             ),
