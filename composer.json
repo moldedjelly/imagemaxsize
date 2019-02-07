@@ -1,5 +1,5 @@
 {
-    "name": "moldedjelly/image-max-size",
+    "name": "moldedjelly/imagemaxsize",
     "description": "Prevent images being uploaded that are bigger than a certain size",
     "type": "craft-plugin",
     "version": "1.0.0",
@@ -31,7 +31,7 @@
     },
     "extra": {
         "name": "Image Max Size",
-        "handle": "image-max-size",
+        "handle": "imagemaxsize",
         "hasCpSettings": false,
         "hasCpSection": false,
         "changelogUrl": "???",
