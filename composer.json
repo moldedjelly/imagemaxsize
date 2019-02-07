@@ -1,0 +1,40 @@
+{
+    "name": "moldedjelly/image-max-size",
+    "description": "Prevent images being uploaded that are bigger than a certain size",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "image max size"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MoldedJelly",
+            "homepage": "http://moldedjelly.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "moldedjelly\\imagemaxsize\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Image Max Size",
+        "handle": "image-max-size",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "class": "moldedjelly\\imagemaxsize\\ImageMaxSize"
+    }
+}
